@@ -7,6 +7,20 @@ while i < src.size do
   i+=1
 end 
 results
+    # when using .each { if i used puts it will only return an string thats why i needed a new array to push my new values}
+    # result = []
+    # src.each do |innerarray| 
+    #   result << "I love #{innerarray[0]} and #{innerarray[1] } on my pizza" 
+    #   end
+    #   result
+    
+    
+    #when using .map  { i dont need a new array, becouse .map returns a new array with change depends on what inside the block } 
+    # src.map do |innerarray| 
+    #   "I love #{innerarray[0]} and #{innerarray[1] } on my pizza" 
+    #   end
+    
+    
 end 
 
 
