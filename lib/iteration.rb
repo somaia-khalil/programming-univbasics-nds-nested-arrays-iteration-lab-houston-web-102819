@@ -1,18 +1,21 @@
 def join_ingredients(src)
-# results = [ ]
-# i = 0 
-# while i < src.size do 
-#   innerarray = src [i]
-#   results << "I love #{innerarray[0]} and #{innerarray [1] } on my pizza"
-#   i+=1
-# end 
-# results
-
+results = [ ]
+i = 0 
+while i < src.size do 
+  innerarray = src [i]
+  results << "I love #{innerarray[0]} and #{innerarray [1] } on my pizza"
+  i+=1
+end 
+results
+    # when using .each 
     # result = []
     # src.each do |innerarray| 
     #   result << "I love #{innerarray[0]} and #{innerarray[1] } on my pizza" 
     #   end
     #   result
+    
+    
+    
 end 
 
 
