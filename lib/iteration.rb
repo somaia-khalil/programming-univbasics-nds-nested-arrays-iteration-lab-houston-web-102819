@@ -10,7 +10,7 @@ def join_ingredients(src)
 
     
     src.map do |innerarray| 
-      puts "I love #{innerarray[0]} and #{innerarray[1] } on my pizza" 
+       "I love #{innerarray[0]} and #{innerarray[1] } on my pizza" 
       end
       
 end 
