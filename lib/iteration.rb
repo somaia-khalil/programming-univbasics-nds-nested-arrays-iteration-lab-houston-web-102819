@@ -8,11 +8,11 @@ def join_ingredients(src)
 # end 
 # results
 
-    # result = []
-    # src.each do |innerarray| 
-    #   result << "I love #{innerarray[0]} and #{innerarray[1] } on my pizza" 
-    #   end
-    #   result
+    result = []
+    src.each do |innerarray| 
+      result << "I love #{innerarray[0]} and #{innerarray[1] } on my pizza" 
+      end
+      result
 end 
 
 
