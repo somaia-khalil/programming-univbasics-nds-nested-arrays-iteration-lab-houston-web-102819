@@ -7,6 +7,12 @@ while i < src.size do
   i+=1
 end 
 results
+
+    # result = []
+    # src.each do |innerarray| 
+    #   result << "I love #{innerarray[0]} and #{innerarray[1] } on my pizza" 
+    #   end
+    #   result
 end 
 
 
